@@ -1,4 +1,4 @@
-package inputOutput;
+package Java;
 import java.util.Scanner;
 
 // Input Format
@@ -23,7 +23,7 @@ import java.util.Scanner;
 // of integer input is still queued in the input buffer and the next nextLine() will be reading the 
 // remainder of the integer line (which is empty).
 
-public class inputOutput {
+public class InputOutput {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
