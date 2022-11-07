@@ -28,11 +28,7 @@ Sample Output
 */
 
 package Java;
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class EndOfFile {
     public static void main(String[] args) {
