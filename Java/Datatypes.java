@@ -30,7 +30,6 @@ n can't be fitted anywhere.
 
 package Java;
 import java.util.*;
-import java.io.*;
 public class Datatypes {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
