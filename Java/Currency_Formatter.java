@@ -57,19 +57,19 @@ public class Solution {
         scanner.close();
         
         // US Currency
-        NumberFormat u = NumberFormat.getInstance(Locale.US);
+        NumberFormat u = NumberFormat.getCurrencyInstance(Locale.US);
         String us =  u.format(payment);
 
         // India Currency
-        NumberFormat i = NumberFormat.getInstance(new Locale("en", "IN"));
+        NumberFormat i = NumberFormat.getCurrencyInstance(new Locale("en", "IN"));
         String india =  i.format(payment);
         
         // China Currency
-        NumberFormat c = NumberFormat.getInstance(Locale.CHINA);
+        NumberFormat c = NumberFormat.getCurrencyInstance(Locale.CHINA);
         String china =  c.format(payment);
         
         // France Currency
-        NumberFormat f = NumberFormat.getInstance(Locale.FRANCE);
+        NumberFormat f = NumberFormat.getCurrencyInstance(Locale.FRANCE);
         String france =  f.format(payment);
                 
         System.out.println("US: " + us);
