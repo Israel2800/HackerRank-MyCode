@@ -1,1 +1,1 @@
-Practice Java Coding
+Java and Python Practice
